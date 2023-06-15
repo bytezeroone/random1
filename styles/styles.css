@@ -1,0 +1,77 @@
+
+main {
+    width: 1140px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.flex-box {
+    display: flex;
+    flex: 1;
+}
+.image-aside-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-head-1, .aside-head-2 {
+    border-width: 3px;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: auto;
+        max-width: 1140px;
+        margin: 0 200px 40px 200px;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+}

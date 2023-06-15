@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    bottom: 0;
+}
+.footer-content {
+    flex: 1;
+    background-color: red;
+}

@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    margin-bottom: 40px;
+}
+.div-1 {
+    background-color: blue;
+    width: 200px
+}
+.div-2 {
+    background-color: green;
+    /*width: 15px;*/
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+
+}
+.div-2 > label {
+    flex: 1;
+}
+.div-3 {
+    background-color: cyan;
+    /*width: 15px;*/
+    width: 200px;
+}
+.search-btn {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-search {
+    flex: 1;
+    height: 30px;
+    padding-left: 10px;
+}
+.search-icon {
+    height: 22px;
+}
